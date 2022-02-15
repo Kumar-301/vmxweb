@@ -1,0 +1,283 @@
+/*header*/
+.header1 {
+    background-image: url('vmx_images/top-header.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.first-header {
+    background-color: rgba(2, 2, 2, 0.36);
+}
+
+.anchor-style {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    color: #fff !important;
+    font-family: "mont-regular";
+    transition-duration: .4s;
+}
+
+.anchor-style:hover {
+    color: #F58025 !important;
+}
+
+.header-section-1 {
+    padding: 150px 0px 100px 100px;
+    max-width: 550px;
+    
+}
+
+.learn-button {
+    background-color: transparent;
+    border-radius: 20px;
+    color: #fff;
+    border: #F58025 1px solid;
+    font-size: 20px;
+    font-family: "mont-medium";
+    
+}
+
+.header-para {
+    font-size: 22px;
+     font-family: "mont-regular"; 
+    color: #fff;
+}
+
+.header-heading-1 {
+    font-size: 45px;
+    color: #fff;
+    font-family: "mont-bold";
+    
+}
+
+.logo-vmx {
+    color: #F58025 !important;
+    z-index: 1;
+    font-size: 24px !important;
+    font-family: "mont-bold";
+}
+
+
+.section1{
+    border:1px gray solid;
+    height:310px;
+    border-radius:10px;
+}
+.section-images{
+    padding-right: 15px;
+    height:30%;
+    width:30%;
+    
+
+}
+/*tab section*/
+.big-heading{
+    font-family: "poppins";
+}
+.span1{
+    font-family:"Montserrat";
+}
+.IT-para{
+    font-family:"Montserrat";
+}
+.IT-heading{
+    font-family:"Montserrat";
+}
+.nav.nav-tabs {
+    float: left;
+    padding-right: 15px;
+    margin-right: 20px;
+    display: block;
+    border-bottom:0;
+}
+.nav-tabs .nav-link.active {
+    border-color: transparent !important;
+    color: #F58025 !important;
+
+}
+.ul-li1{
+    border-bottom: #BDBFC9 1px solid;
+}
+.navigation-border{
+    border-right: #F58025 3px solid;
+    position: relative;
+    
+}
+.navigation-border::before{
+    position: absolute;
+    border-top: #F58025 3px solid;
+    content: "";
+    top:0;
+    right: 0;
+    width: 20%;
+
+    
+    
+}
+.navigation-border::after{
+    position: absolute;
+    border-bottom: #F58025 3px solid;
+    content: "";
+    right: 0;
+    bottom:0;
+    width: 20%;
+    
+}
+.nav-link{
+    cursor: pointer;
+}
+.nav.nav-tabs {
+    float: left;
+    border-bottom: 0;
+    display: block;
+    padding-right: 15px;
+    margin-right: 20px;
+    
+    
+}
+/*above footer*/
+.bussiness-container {
+    background-image: url("vmx_images/Mask\ Group\ 4.png");
+    background-repeat: no-repeat;
+    padding: 47px 0px 40px 0px;
+    background-size: cover;
+
+}
+
+.bussiness-heading {
+    color: #fff;
+    max-width: 750px;
+    
+}
+
+.book-button {
+    background-color: #F58025;
+    border-color: #F58025;
+    border-radius: 30px;
+    color: white;
+    margin-top: 30px;
+    padding: 10px 30px;
+    
+    
+    
+}
+/*third-section*/
+
+
+.bg-image-head {
+    color: #2D2D2D;
+    font-size: 50px;
+}
+
+.bg-card-1 {
+    border-radius: 10px !important;
+    position: absolute;
+    width: 300px;
+    content: "";
+    top: 0;
+    left: 3%;
+    border: #707070 1px solid;
+    box-shadow: rgb(112, 112, 112, 0.3) -5px 5px 5px;
+}
+
+.bg-card-2 {
+    border-radius: 10px !important;
+    position: absolute;
+    content: "";
+    width: 300px;
+    top: 10%;
+    bottom: 0;
+    left: 15%;
+    border: #707070 1px solid;
+    box-shadow: rgb(112, 112, 112, 0.3) -5px 5px 5px;
+}
+
+.bg-card-3 {
+    position: absolute;
+    right: 10%;
+    bottom: 25%;
+    max-width: 460px;
+}
+
+.span-card {
+    font-size: 104px;
+    color: #F58025;
+    font-family: "poppins-semibold";
+}
+
+.bg-card-head {
+    font-size: 28px;
+    max-width: 200px;
+    font-family: "poppins-semibold";
+}
+
+.bg-image-section {
+    position: relative;
+    background-image: url("navigateimages/Group\ 189.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-head-part {
+    font-size: 40px;
+    font-family: "mont-bold";
+}
+
+.bg-para-part {
+    font-size: 20px;
+    font-family: "mont-regular";
+}
+
+/*footer*/
+.footer-section {
+    padding: 40px 0px 0px 0px;
+    background-color: #000A2D;
+   
+}
+
+.ul-links {
+    padding-left: 0px;
+    list-style-type: none;
+
+}
+
+.footer-heading1 {
+    font-size: 27px;
+    color: #F58025;
+    
+}
+
+.footer-heading2 {
+    font-size: 20px;
+    color: #BDBFC9;
+    
+}
+
+.footer-items {
+    font-size: 18px;
+    color: #BDBFC9;
+    
+}
+
+.links-style:hover {
+    color: #F58025;
+    text-decoration: none;
+
+}
+.footer-section2{
+    padding:10px 0px 10px 0px;
+    background-color: #2D2D2D;
+    
+}
+.copyright{
+    color:#fff;
+    font-size:15px;
+    
+}
+div .icons+.icons{
+    padding-left:10px;
+}
+.icons:hover{
+    text-decoration: none;
+}
+
